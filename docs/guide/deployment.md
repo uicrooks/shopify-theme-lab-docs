@@ -85,9 +85,9 @@ yarn webpack:build
 2. Then move the contents of the shopify directory from the `source-code` to the `dist-code` directory and push your changes to GitHub.
 
 ```
-shopify-theme-lab
-├─ source-code/shopify  <- move all contents from here
-└─ dist-code            <- to here
+shopify-theme-lab/
+├─ source-code/shopify/  <- move all contents from here
+└─ dist-code/            <- to here
 ```
 
 The [Shopify docs](https://shopify.dev/themes/best-practices/version-control) describe several other ways how to set up version control.
