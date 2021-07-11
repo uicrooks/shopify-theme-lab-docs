@@ -40,6 +40,10 @@ module.exports = [
           {
             text: 'Shopify CLI',
             link: 'https://shopify.dev/themes/tools/cli'
+          },
+          {
+            text: 'Shopify Cheat Sheet',
+            link: 'https://www.shopify.com/partners/shopify-cheat-sheet'
           }
         ]
       }
