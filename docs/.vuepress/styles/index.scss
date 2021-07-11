@@ -1,0 +1,16 @@
+:root {
+  scroll-behavior: smooth;
+
+  --theme-lab: rgb(110 120 255);
+  --theme-lab-light: rgb(130 140 255);
+
+  // brand colors
+  --c-brand: var(--theme-lab);
+  --c-brand-light: var(--theme-lab-light);
+}
+
+html.dark {
+  // brand colors
+  --c-brand: var(--theme-lab);
+  --c-brand-light: var(--theme-lab-light);
+}

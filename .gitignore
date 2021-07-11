@@ -1,0 +1,8 @@
+# basic
+node_modules
+.DS_Store
+*.log
+
+# vuepress
+.temp
+.cache
