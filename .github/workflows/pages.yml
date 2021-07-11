@@ -2,8 +2,8 @@ name: pages
 
 on:
   # trigger deployment on every push to master branch
-  # push:
-  #   branches: [master]
+  push:
+    branches: [master]
   # trigger deployment manually
   workflow_dispatch:
 
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      DOCS_GA_ID: G-XXXXXXXXXX
+      DOCS_GA_ID: G-DMSX55F49K
 
     steps:
       - uses: actions/checkout@v2
