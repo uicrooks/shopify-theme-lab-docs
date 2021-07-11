@@ -2,6 +2,8 @@
 
 ## Vue
 
+- All Vue-related files are auto-loaded by webpack with [require.context](https://webpack.js.org/guides/dependency-management/#requirecontext) - Vue components, Vuex modules, as well as mixins and directives with `global` in their filename. Everything is defined in `src/main.js`
+
 - Vue components inside `.liquid` files can only be used in a non-self-closing kebab case manner.
 
 ```liquid
@@ -28,7 +30,7 @@ export default {
 <render-my-component></render-my-component>
 ```
 
-- Don't place regular style and script tags inside the Vue instance. They will be removed on mount. Use Vue's `<component>` tags instead and specify the `'is'` prop.
+- Don't place regular `<style>` and `<script>` tags inside the Vue instance. They will be removed on mount. Use Vue's `<component>` tags instead and specify the `'is'` prop.
 
 ```liquid
 <div id="app">
