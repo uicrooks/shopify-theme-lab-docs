@@ -2,7 +2,7 @@ module.exports = [
   // Guide
   {
     text: 'Guide',
-    link: '/guide'
+    link: '/guide/'
   },
 
   // Resources
