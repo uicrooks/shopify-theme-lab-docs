@@ -30,7 +30,7 @@ footer: MIT Licensed | Copyright © 2020-present Sergej Samsonenko
 <CodeGroup>
   <CodeGroupItem title="NPM" active>
 
-```bash
+```sh
 # init theme lab with the Shopify CLI
 shopify theme init -u https://github.com/uicrooks/shopify-theme-lab
 
@@ -46,7 +46,7 @@ npm run start
 
   <CodeGroupItem title="YARN">
 
-```bash
+```sh
 # init theme lab with the Shopify CLI
 shopify theme init -u https://github.com/uicrooks/shopify-theme-lab
 
