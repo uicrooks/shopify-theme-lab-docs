@@ -48,7 +48,7 @@ shopify-theme-lab/
 ...
 ```
 
-4. Create a css file and import it into `src/css/main.css`.
+4. Create a CSS file and import it into `src/css/main.css`.
 
 ```css
 body {

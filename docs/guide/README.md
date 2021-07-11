@@ -4,7 +4,7 @@ Shopify Theme Lab is a customizable modular development environment for blazing-
 
 ## Why Theme Lab?
 
-The new Shopify Dawn theme is written in vanilla JavaScript and CSS and is quite opinionated about possible design choises. Theme Lab on the other hand is well suited for building a complex theme either from scratch, with your favourite Framework, or starting with a clutter free [Foundation Theme](https://github.com/uicrooks/shopify-foundation-theme)
+The new Shopify Dawn theme is written in vanilla JavaScript and CSS and is quite opinionated about possible design choices. Theme Lab on the other hand is well suited for building a complex theme either from scratch, with your favourite Framework, or starting with a clutter free [Foundation Theme](https://github.com/uicrooks/shopify-foundation-theme)
 
 ## Features
 
@@ -28,4 +28,4 @@ The new Shopify Dawn theme is written in vanilla JavaScript and CSS and is quite
   - [stylelint](https://stylelint.io)
   - [Browserslist](https://github.com/browserslist/browserslist)
   - [Autoprefixer](https://github.com/postcss/autoprefixer)
-  - Easily adjustable/extendable configurations
+  - Easy customizable configurations

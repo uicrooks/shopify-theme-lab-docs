@@ -1,6 +1,6 @@
 # JS Frameworks
 
-## Removing Vue
+## Remove Vue
 
 1. Remove all `Vue` packages.
 

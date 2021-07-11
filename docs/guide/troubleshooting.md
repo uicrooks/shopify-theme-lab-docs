@@ -30,7 +30,7 @@ export default {
 <render-my-component></render-my-component>
 ```
 
-- Don't place regular `<style>` and `<script>` tags inside the Vue instance. They will be removed on mount. Use Vue's `<component>` tags instead and specify the `'is'` prop.
+- Don't place regular `<style>` and `<script>` tags inside the Vue instance. They will be removed on mount. Use Vue `<component>` tags instead and specify the `'is'` prop.
 
 ```liquid
 <div id="app">

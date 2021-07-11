@@ -2,7 +2,7 @@
 
 ## Manual
 
-Build and deploy to a `new` theme on the store that you're connected to.
+Build and deploy a `new` theme to the store that you're connected to.
 
 <CodeGroup>
   <CodeGroupItem title="NPM" active>
@@ -22,7 +22,7 @@ yarn deploy:new
   </CodeGroupItem>
 </CodeGroup>
 
-Buid and deploy to an `existing` theme on the store that you're connected to.
+Build and deploy to an `existing` theme on the store that you're connected to.
 
 <CodeGroup>
   <CodeGroupItem title="NPM" active>
@@ -60,7 +60,7 @@ The deploy task overrides all files of the remote theme! If any changes were mad
 Since Theme Lab uses a custom build workflow it's not out of the box compatible with the [Shopify GitHub integration](https://shopify.dev/themes/tools/github).
 :::
 
-One of the simplest ways to achieve version control for a live store is to use 2 separate repos. One for your `source code` and one for your `dist code`. That way you can use the Shopify GitHub integration for your dist repo and track possible changes on a live theme.
+One of the simplest ways to achieve version control for a live store is to use 2 separate repositories. One for your `source code` and one for your `dist code`. That way you can use the Shopify GitHub integration for your dist repo and track possible changes on a live theme.
 
 1. When you're ready to publish a theme to a live store simply run the build task.
 
@@ -82,7 +82,7 @@ yarn webpack:build
   </CodeGroupItem>
 </CodeGroup>
 
-2. Then move the contents of the shopify directory from the `source-code` to the `dist-code` directory and push your changes to GitHub.
+2. Then move the contents of the `shopify` directory from the `source-code` to the `dist-code` directory and push your changes to GitHub.
 
 ```
 shopify-theme-lab/

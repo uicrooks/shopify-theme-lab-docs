@@ -1,6 +1,6 @@
 # CSS Frameworks
 
-## Removing Tailwind CSS
+## Remove Tailwind CSS
 
 1. Remove `tailwindcss` package.
 
