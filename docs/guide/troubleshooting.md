@@ -8,6 +8,26 @@
 <kebab-case></kebab-case>
 ```
 
+- If a `name` is defined inside a `.vue` file, it can be referenced by `name` otherwise the component will be named after the file path starting from the `src/vue/components/` directory.
+
+```vue
+<script>
+// src/vue/components/render/my-component.vue
+
+export default {
+  name: 'MyComponent' // not required
+}
+</script>
+```
+
+```liquid
+<!-- has a name defined -->
+<my-component></my-component>
+
+<!-- has no name defined -->
+<render-my-component></render-my-component>
+```
+
 - Don't place regular style and script tags inside the Vue instance. They will be removed on mount. Use Vue's `<component>` tags instead and specify the `'is'` prop.
 
 ```liquid
