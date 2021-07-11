@@ -9,8 +9,8 @@
   --c-brand-light: var(--theme-lab-light);
 
   // search
-  --search-input-width: 12rem;
-  --search-result-width: 20rem;
+  --search-input-width: 12rem !important;
+  --search-result-width: 20rem !important;
 }
 
 html.dark {
