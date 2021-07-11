@@ -1,4 +1,5 @@
 const navbar = require('./configs/navbar')
+const sidebar = require('./configs/sidebar')
 
 module.exports = {
   lang: 'en-US',
@@ -8,8 +9,13 @@ module.exports = {
   themeConfig: {
     logo: '/images/logo.svg',
     navbar,
+    sidebar,
     repo: 'https://github.com/uicrooks/shopify-theme-lab',
-    repoLabel: 'GitHub'
+    repoLabel: 'GitHub',
+    docsRepo: 'https://github.com/uicrooks/shopify-theme-lab-docs',
+    docsBranch: 'master',
+    docsDir: 'docs',
+    contributors: false
   },
 
   plugins: [
