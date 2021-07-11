@@ -7,10 +7,18 @@
   // brand colors
   --c-brand: var(--theme-lab);
   --c-brand-light: var(--theme-lab-light);
+
+  // search
+  --search-input-width: 12rem;
+  --search-result-width: 20rem;
 }
 
 html.dark {
   // brand colors
   --c-brand: var(--theme-lab);
   --c-brand-light: var(--theme-lab-light);
+
+  // search
+  --search-input-width: 12rem;
+  --search-result-width: 20rem;
 }
