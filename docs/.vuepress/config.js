@@ -6,6 +6,25 @@ module.exports = {
   title: 'Shopify Theme Lab',
   description: 'Shopify theme development environment using Liquid, Vue and Tailwind CSS. Built on top of Shopify CLI.',
 
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: `/images/icons/favicon.svg`
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: `/images/icons/favicon.png`
+      }
+    ]
+  ],
+
   themeConfig: {
     logo: '/images/logo.svg',
     navbar,
