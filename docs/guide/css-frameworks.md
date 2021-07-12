@@ -54,7 +54,7 @@ module.exports = {
 ## Bulma
 [Bulma](https://bulma.io) is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces.
 
-1. Install [SASS/SCSS](/guide/configuration.html#sass-scss) and update files accordingly.
+1. Install [SASS/SCSS](configuration.html#sass-scss) and update files accordingly.
 
 2. Install `bulma` package.
 
