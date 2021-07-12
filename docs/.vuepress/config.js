@@ -1,3 +1,4 @@
+const path = require('path')
 const navbar = require('./configs/navbar')
 const sidebar = require('./configs/sidebar')
 
@@ -41,6 +42,13 @@ module.exports = {
   },
 
   plugins: [
+    [
+      '@vuepress/plugin-register-components',
+      {
+        componentsDir: path.resolve(__dirname, './components')
+      }
+    ],
+
     [
       '@vuepress/plugin-search',
       {
