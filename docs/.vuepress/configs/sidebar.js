@@ -11,6 +11,7 @@ module.exports = {
         '/guide/js-frameworks.md',
         '/guide/assets.md',
         '/guide/troubleshooting.md',
+        '/guide/migrating.md',
       ]
     }
   ]
