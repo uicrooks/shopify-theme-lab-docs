@@ -39,7 +39,7 @@ rm -rf node_modules
 
 5. Add [.theme-check.yml](https://github.com/uicrooks/shopify-theme-lab/blob/master/shopify/.theme-check.yml) to your `shopify` directory.
 
-6. Now you are ready to follow the [Getting started guide](/guide/getting-started.html) to set up your tooling.
+6. Now you are ready to follow the [Getting started guide](getting-started.html) to set up your tooling.
 
 ::: tip
 If you want to migrate your templates to the latest `Online Store 2.0` features, then follow the official Shopify [migration guide](https://shopify.dev/themes/migration)
