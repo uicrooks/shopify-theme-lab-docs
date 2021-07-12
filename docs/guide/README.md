@@ -14,13 +14,13 @@ The new Shopify Dawn theme is written in vanilla JavaScript and CSS and is quite
 - JavaScript
   - [Vue](https://v3.vuejs.org)
   - [Vuex](https://next.vuex.vuejs.org)
-  - Swap Vue with any other framework e.g. [Alpine.js](/guide/js-frameworks.html#alpine-js)
+  - Swap Vue with any other framework e.g. [Alpine.js](js-frameworks.html#alpine-js)
   - Extend with [npm packages](https://www.npmjs.com) 📦
 - CSS
   - [Tailwind CSS](https://tailwindcss.com)
-  - Swap Tailwind CSS with any other framework e.g. [Bulma](/guide/css-frameworks.html#bulma)
+  - Swap Tailwind CSS with any other framework e.g. [Bulma](css-frameworks.html#bulma)
   - [PostCSS](https://postcss.org) with [postcss-preset-env](https://preset-env.cssdb.org/features)
-  - Preprocessor support: [SASS / SCSS](/guide/configuration.html#sass-scss), [LESS](/guide/configuration.html#less) and [Stylus](/guide/configuration.html#stylus)
+  - Preprocessor support: [SASS / SCSS](configuration.html#sass-scss), [LESS](configuration.html#less) and [Stylus](configuration.html#stylus)
 - Workflow
   - [Webpack](https://webpack.js.org)
   - [Babel](https://babeljs.io)
