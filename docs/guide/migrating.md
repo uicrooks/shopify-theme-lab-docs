@@ -10,7 +10,7 @@ rm -rf node_modules
 
 2. Replace your `.config` directory with the new [.config](https://github.com/uicrooks/shopify-theme-lab/tree/master/.config) directory.
 
-3. Replace your `.gitignore` file with the new [.config](https://github.com/uicrooks/shopify-theme-lab/blob/master/.gitignore) file.
+3. Replace your `.gitignore` file with the new [.gitignore](https://github.com/uicrooks/shopify-theme-lab/blob/master/.gitignore) file.
 
 4. Inside `package.json` delete the config section.
 
