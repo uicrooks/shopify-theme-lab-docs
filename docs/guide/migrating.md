@@ -42,5 +42,5 @@ rm -rf node_modules
 6. Now you are ready to follow the [Getting started guide](/guide/getting-started.html) to set up your tooling.
 
 ::: tip
-If you want to migrate your templates to the latest `Online Store 2.0` features follow the official Shopify [migration guide](https://shopify.dev/themes/migration)
+If you want to migrate your templates to the latest `Online Store 2.0` features, then follow the official Shopify [migration guide](https://shopify.dev/themes/migration)
 :::
