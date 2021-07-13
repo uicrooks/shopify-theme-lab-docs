@@ -22,7 +22,7 @@
 If you're the owner of the development store, then you need to log in to the store using the store URL at least once (for example, using your-store.myshopify.com/admin) before you can start using the Shopify CLI.
 :::
 
-4. Log into your development store.
+4. Log into your development store through the Shopify CLI.
 
 ```sh
 shopify login --store <your-store.myshopify.com>
