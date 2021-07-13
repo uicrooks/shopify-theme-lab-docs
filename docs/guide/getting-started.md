@@ -6,6 +6,8 @@
 - [Shopify CLI v2+](https://shopify.dev/themes/tools/cli/installation)
 - [Node.js v14+](https://nodejs.org/en)
 
+<banner />
+
 ## Installation
 
 1. Install the Shopify CLI by following [these steps](https://shopify.dev/themes/tools/cli/installation).
