@@ -1,6 +1,6 @@
 <template>
   <article v-if="url && src">
-    <a :href="url">
+    <a :href="url" target="_blank">
       <img :src="src" loading="lazy">
 
       <div class="note">
@@ -14,8 +14,8 @@
 export default {
   data () {
     return {
-      url: '/',
-      src: null
+      url: 'https://gum.co/lulpF',
+      src: 'https://user-images.githubusercontent.com/68379148/125525070-5a9317e0-e974-4b0f-b5ce-a78bcfb36f08.jpg'
     }
   }
 }
