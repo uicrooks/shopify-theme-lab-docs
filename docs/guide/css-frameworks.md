@@ -51,7 +51,40 @@ module.exports = {
 - @import "tailwindcss/utilities";
 ```
 
+## Bootstrap 5
+
+[Bootstrap](https://getbootstrap.com/) is the world’s most popular framework for building responsive, mobile-first sites.
+
+1. Install [SASS/SCSS](configuration.html#sass-scss) and update files accordingly.
+
+2. Install `bootstrap` package.
+
+<CodeGroup>
+  <CodeGroupItem title="NPM" active>
+
+```sh
+npm install bootstrap
+```
+
+  </CodeGroupItem>
+
+  <CodeGroupItem title="YARN">
+
+```sh
+yarn add bootstrap
+```
+
+  </CodeGroupItem>
+</CodeGroup>
+
+3. Import `bootstrap` into `src/css/main.scss`
+
+```scss
+@import "~bootstrap/scss/bootstrap";
+```
+
 ## Bulma
+
 [Bulma](https://bulma.io) is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces.
 
 1. Install [SASS/SCSS](configuration.html#sass-scss) and update files accordingly.
@@ -78,7 +111,6 @@ yarn add bulma
 
 3. Import `bulma` into `src/css/main.scss`
 
-```css
+```scss
 @import "~bulma/bulma";
-...
 ```
