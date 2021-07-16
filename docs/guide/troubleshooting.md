@@ -44,6 +44,16 @@ export default {
 </div>
 ```
 
+- `Renderless` components require one single root element.
+
+```liquid
+<rendereless-component v-slot="{ data }">
+  <div>
+    ...
+  </div>
+<rendereless-component>
+```
+
 - If you want to pass an entire Shopify Drop (Object) as a prop, you have to convert the Drop first to `JSON` and then replace all double quotes with single quotes.
 
 ```liquid
