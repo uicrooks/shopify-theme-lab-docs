@@ -30,6 +30,12 @@ export default {
 <render-my-component></render-my-component>
 ```
 
+- Use `raw` tags to output unparsed code inside of `.liquid` files.
+
+```liquid
+{% raw %}{{ vueVariable }}{% endraw %}
+```
+
 - Don't place regular `<style>` and `<script>` tags inside the Vue instance. They will be removed on mount. Use Vue `<component>` tags instead and specify the `'is'` prop.
 
 ```liquid
@@ -42,6 +48,16 @@ export default {
     ...
   </componet>
 </div>
+```
+
+- `Renderless` components require one single root element.
+
+```liquid
+<rendereless-component v-slot="{ data }">
+  <div>
+    ...
+  </div>
+<rendereless-component>
 ```
 
 - If you want to pass an entire Shopify Drop (Object) as a prop, you have to convert the Drop first to `JSON` and then replace all double quotes with single quotes.
