@@ -30,6 +30,12 @@ export default {
 <render-my-component></render-my-component>
 ```
 
+- Use `raw` tags to output unparsed code inside of `.liquid` files.
+
+```liquid
+{% raw %}{{ vueVariable }}{% endraw %}
+```
+
 - Don't place regular `<style>` and `<script>` tags inside the Vue instance. They will be removed on mount. Use Vue `<component>` tags instead and specify the `'is'` prop.
 
 ```liquid
