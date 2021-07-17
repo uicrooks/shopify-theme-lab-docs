@@ -3,6 +3,7 @@ const navbar = require('./configs/navbar')
 const sidebar = require('./configs/sidebar')
 
 module.exports = {
+  base: '/',
   lang: 'en-US',
   title: 'Shopify Theme Lab',
   description: 'Shopify theme development environment using Liquid, Vue and Tailwind CSS. Built on top of Shopify CLI.',
@@ -21,7 +22,7 @@ module.exports = {
       {
         rel: 'icon',
         type: 'image/png',
-        href: 'images/icons/favicon.png'
+        href: '/images/icons/favicon.png'
       }
     ]
   ],
