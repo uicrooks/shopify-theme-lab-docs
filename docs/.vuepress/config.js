@@ -13,7 +13,7 @@ module.exports = {
       {
         rel: 'icon',
         type: 'image/svg+xml',
-        href: `/images/icons/favicon.svg`
+        href: '/images/icons/favicon.svg'
       }
     ],
     [
@@ -21,7 +21,7 @@ module.exports = {
       {
         rel: 'icon',
         type: 'image/png',
-        href: `${base}images/icons/favicon.png`
+        href: 'images/icons/favicon.png'
       }
     ]
   ],
