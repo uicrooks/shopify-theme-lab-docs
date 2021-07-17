@@ -107,7 +107,7 @@ shopify-theme-lab/            📁 root of your Shopify Theme Lab project
 | Task | Description |
 | - | - |
 | start | run `shopify:serve` and `webpack:watch` tasks simultaneously in parallel |
-| deploy | upload local files from the `shopify` directory to the store that you're connected to |
+| deploy | build and upload local files from the `shopify` directory to the store that you're connected to |
 | deploy:new | same as `deploy` but creates a new unpublished theme |
 | webpack:watch | bundle and watch for changes in `src/` files with webpack |
 | webpack:build | create minified production files for Shopify in `shopify/assets/` directory |

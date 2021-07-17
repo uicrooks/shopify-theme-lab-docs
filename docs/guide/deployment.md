@@ -1,6 +1,6 @@
 # Deployment
 
-## Manual
+## Shopify CLI
 
 Build and deploy a `new` theme to the store that you're connected to.
 
@@ -74,13 +74,16 @@ yarn shopify:pull
 
 ## GitHub integration
 
+Shopify provides a [Shopify GitHub integration](https://shopify.dev/themes/tools/github), but since Theme Lab uses a custom build-workflow it's not out of the box compatible with the integration.
+
 ::: tip
-Since Theme Lab uses a custom build workflow it's not out of the box compatible with the [Shopify GitHub integration](https://shopify.dev/themes/tools/github).
+You can only connect branches that match the default Shopify theme folder structure via the Shopify GitHub integration.
 :::
 
-One of the simplest ways to achieve version control for a live store is to use 2 separate repos. One for your `source code` and one for your `dist code`. That way you can use the Shopify GitHub integration for your dist repo and track possible changes on a live theme done through Shopify.
+### Repo
+One of the simplest ways to circumvent this limitation is to use a separate repo for your dist files.
 
-1. When you're ready to publish a theme to a live store simply run the build task.
+1. When you're ready to publish a theme simply run the build task.
 
 <CodeGroup>
   <CodeGroupItem title="NPM" active>
@@ -108,4 +111,8 @@ shopify-theme-lab/
 └─ dist-code/            <- to here
 ```
 
-The [Shopify docs](https://shopify.dev/themes/best-practices/version-control) describe several other ways how to set up version control.
+3. Follow the Shopify GitHub integration [Instructions](https://shopify.dev/themes/tools/github/getting-started) and select your main brach from the dist repo for the Shopify GitHub integration.
+
+### Other
+
+The [Shopify docs](https://shopify.dev/themes/best-practices/version-control) describe several other ways how to set up version control with a custom build-workflow.
