@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      DOCS_GA_ID: G-DMSX55F49K
+      GA_ID: ${{ secrets.GA_ID }}
 
     steps:
       - uses: actions/checkout@v2
