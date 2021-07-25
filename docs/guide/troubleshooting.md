@@ -78,7 +78,3 @@ export default {
   }"
 ></component>
 ```
-
-## Limitations
-
-- During development when the `start` task is running, the browser console throws a `bundle.css` missing error.
