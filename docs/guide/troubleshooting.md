@@ -78,3 +78,17 @@ export default {
   }"
 ></component>
 ```
+
+- Whenever you use `Vue` functionality inside a Shopify `section` add the `vue` keyword to the section's wrapper classes. It fixes rendering issues in the theme editor as well as during development-reloading.
+
+```liquid
+<!-- shopify/sections/section-file.liquid -->
+
+...
+
+{% schema %}
+{
+  "class": "vue-section"
+}
+{% endschema %}
+```
