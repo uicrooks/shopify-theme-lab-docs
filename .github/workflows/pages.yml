@@ -1,9 +1,9 @@
 name: pages
 
 on:
-  # trigger deployment on every push to master branch
+  # trigger deployment on every push to main branch
   push:
-    branches: [master]
+    branches: [main]
   # trigger deployment manually
   workflow_dispatch:
 
