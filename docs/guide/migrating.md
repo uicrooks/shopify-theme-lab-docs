@@ -8,9 +8,9 @@
 rm -rf node_modules
 ```
 
-2. Replace your `.config` directory with the new [.config](https://github.com/uicrooks/shopify-theme-lab/tree/master/.config) directory.
+2. Replace your `.config` directory with the new [.config](https://github.com/uicrooks/shopify-theme-lab/tree/main/.config) directory.
 
-3. Replace your `.gitignore` file with the new [.gitignore](https://github.com/uicrooks/shopify-theme-lab/blob/master/.gitignore) file.
+3. Replace your `.gitignore` file with the new [.gitignore](https://github.com/uicrooks/shopify-theme-lab/blob/main/.gitignore) file.
 
 4. Inside `package.json` delete the config section.
 
@@ -27,7 +27,7 @@ rm -rf node_modules
 ...
 ```
 
-5. Inside `package.json` replace the `scripts` and `devDependencies` sections with the new ones from [package.json](https://github.com/uicrooks/shopify-theme-lab/blob/master/package.json).
+5. Inside `package.json` replace the `scripts` and `devDependencies` sections with the new ones from [package.json](https://github.com/uicrooks/shopify-theme-lab/blob/main/package.json).
 
 ```json
 "scripts": {
@@ -39,7 +39,7 @@ rm -rf node_modules
 }
 ```
 
-6. Add [.theme-check.yml](https://github.com/uicrooks/shopify-theme-lab/blob/master/shopify/.theme-check.yml) to your `shopify` directory.
+6. Add [.theme-check.yml](https://github.com/uicrooks/shopify-theme-lab/blob/main/shopify/.theme-check.yml) to your `shopify` directory.
 
 7. Now you are ready to follow the [Getting started guide](getting-started.html) to set up your tooling.
 

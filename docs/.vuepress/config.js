@@ -34,7 +34,7 @@ module.exports = {
     repo: 'https://github.com/uicrooks/shopify-theme-lab',
     repoLabel: 'GitHub',
     docsRepo: 'https://github.com/uicrooks/shopify-theme-lab-docs',
-    docsBranch: 'master',
+    docsBranch: 'main',
     docsDir: 'docs',
     contributors: false
   },

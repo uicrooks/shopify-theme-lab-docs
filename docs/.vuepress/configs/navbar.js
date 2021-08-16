@@ -23,7 +23,7 @@ module.exports = [
         children: [
           {
             text: 'I18n',
-            link: 'https://github.com/uicrooks/shopify-theme-lab-plugins/tree/master/packages/i18n'
+            link: 'https://github.com/uicrooks/shopify-theme-lab-plugins/tree/main/packages/i18n'
           }
         ]
       }
