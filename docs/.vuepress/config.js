@@ -27,6 +27,8 @@ module.exports = {
     ]
   ],
 
+  theme: path.resolve(__dirname, 'theme'),
+
   themeConfig: {
     logo: '/images/logo.svg',
     navbar,
