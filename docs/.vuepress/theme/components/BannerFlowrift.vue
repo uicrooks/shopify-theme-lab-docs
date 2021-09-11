@@ -1,7 +1,7 @@
 <template>
   <Banner
     :layout="layout"
-    link="https://flowrift.com"
+    link="https://flowrift.com?utm_source=themelab-docs&utm_medium=organic"
   >
     <template #logo>
       <Logo />
