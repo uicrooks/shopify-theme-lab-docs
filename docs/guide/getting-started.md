@@ -70,7 +70,7 @@ yarn start
   </CodeGroupItem>
 </CodeGroup>
 
-7. Open the development URL provided by the Shopify CLI.
+7. Open the development URL provided by the Shopify CLI. You may need to enter the store password before you can continue.
 
 ## Structure
 
