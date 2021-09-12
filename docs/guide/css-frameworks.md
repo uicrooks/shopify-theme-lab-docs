@@ -28,12 +28,13 @@ yarn remove tailwindcss
 rm src/tailwind.config.js
 ```
 
-3. Remove `tailwind` require from `.config/postcss.config.js`.
+3. Remove `tailwind` requires from `.config/postcss.config.js`.
 
-```js{4}
+```js{4,5}
 module.exports = {
   plugins: [
     ...
+-   require('tailwindcss/nesting'),
 -   require('tailwindcss')(path.resolve(__dirname, '../src/tailwind.config.js')),
     ...
   ]
