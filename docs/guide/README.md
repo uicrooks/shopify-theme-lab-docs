@@ -19,7 +19,7 @@ The new Shopify Dawn theme is written in vanilla JavaScript and CSS and is quite
 - CSS
   - [Tailwind CSS](https://tailwindcss.com)
   - Swap Tailwind CSS with any other framework e.g. [Bulma](css-frameworks.html#bulma)
-  - [PostCSS](https://postcss.org) with [postcss-preset-env](https://preset-env.cssdb.org/features)
+  - [PostCSS](https://postcss.org)
   - Preprocessor support: [SASS / SCSS](configuration.html#sass-scss), [LESS](configuration.html#less) and [Stylus](configuration.html#stylus)
 - Workflow
   - [Webpack](https://webpack.js.org)

@@ -10,7 +10,7 @@ Theme Lab uses vanilla webpack configurations, you can easily adjust them howeve
 For the most cohesive development experience, it's recommended that you use PostCSS exclusively when working with Tailwind CSS.
 :::
 
-By default, only PostCSS with `postcss-preset-env` is installed. [postcss-preset-env](https://preset-env.cssdb.org/features) lets you use tomorrow’s CSS today. If you want to use a preprocessor it's recommended to use `SASS/SCSS` since it's the most compatible with a variety of CSS frameworks.
+By default, only PostCSS is installed. If you want to use a preprocessor it's recommended to use `SASS/SCSS` since it's the most compatible with a variety of CSS frameworks.
 
 ### SASS/SCSS
 
