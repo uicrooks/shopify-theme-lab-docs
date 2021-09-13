@@ -12,7 +12,7 @@
     </template>
 
     <template #badge>
-      Sponsored
+      New
     </template>
   </Banner>
 </template>
