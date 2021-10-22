@@ -10,6 +10,7 @@ module.exports = {
         '/guide/css-frameworks.md',
         '/guide/js-frameworks.md',
         '/guide/assets.md',
+        '/guide/modularity.md',
         '/guide/troubleshooting.md',
         '/guide/migrating.md',
       ]
