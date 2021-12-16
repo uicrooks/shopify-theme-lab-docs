@@ -12,10 +12,6 @@
 
 2. Create a [development store](https://shopify.dev/themes/tools/development-stores#create-a-development-store-to-build-and-test-your-theme).
 
-::: tip
-[Online Store 2.0](https://shopify.dev/themes/migration) features are available on any development store created after June 29, 2021.
-:::
-
 3. Log out of your newly created store and then log in again using the `your-store.myshopify.com/admin` URL
 
 ::: tip
