@@ -64,7 +64,7 @@ export default {
 
 ```liquid
 <component
-  :shopify-data="{{ product | json | replace: '"', "'" }}"
+  :shopify-data="{{ product | json | escape }}"
 ></component>
 ```
 
