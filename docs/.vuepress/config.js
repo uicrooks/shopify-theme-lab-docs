@@ -3,7 +3,7 @@ const navbar = require('./configs/navbar')
 const sidebar = require('./configs/sidebar')
 
 module.exports = {
-  base: '/',
+  base: '/shopify-theme-lab-docs/',
   lang: 'en-US',
   title: 'Shopify Theme Lab',
   description: 'Shopify theme development environment using Liquid, Vue and Tailwind CSS. Built on top of Shopify CLI.',
