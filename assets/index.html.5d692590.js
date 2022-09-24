@@ -1,0 +1,1 @@
+const e={key:"v-fffb8e28",path:"/guide/",title:"Introduction",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Why Theme Lab?",slug:"why-theme-lab",children:[]},{level:2,title:"Features",slug:"features",children:[]}],filePathRelative:"guide/README.md",git:{updatedTime:1631463447e3}};export{e as data};

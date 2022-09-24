@@ -1,0 +1,1 @@
+const e={key:"v-2d4b3d2c",path:"/guide/js-frameworks.html",title:"JS Frameworks",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Remove Vue",slug:"remove-vue",children:[]},{level:2,title:"Alpine.js",slug:"alpine-js",children:[]}],filePathRelative:"guide/js-frameworks.md",git:{updatedTime:1626026492e3}};export{e as data};

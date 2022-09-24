@@ -1,0 +1,1 @@
+const e={key:"v-794098ee",path:"/guide/modularity.html",title:"Modularity (Vue)",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Unified approach",slug:"unified-approach",children:[]},{level:2,title:"Modular approach",slug:"modular-approach",children:[]}],filePathRelative:"guide/modularity.md",git:{updatedTime:1634937434e3}};export{e as data};

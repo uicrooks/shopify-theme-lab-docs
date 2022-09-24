@@ -1,0 +1,1 @@
+const e={key:"v-571f421d",path:"/guide/migrating.html",title:"Migrating",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"Version 3 to 4",slug:"version-3-to-4",children:[]}],filePathRelative:"guide/migrating.md",git:{updatedTime:1629117523e3}};export{e as data};
