@@ -18,13 +18,7 @@
 If you're the owner of the development store, then you need to log in to the store using the store URL at least once (for example, using your-store.myshopify.com/admin) before you can start using the Shopify CLI.
 :::
 
-4. Log into your development store through the Shopify CLI.
-
-```sh
-shopify login --store <your-store.myshopify.com>
-```
-
-5. Clone the Shopify Theme Lab repo or simply use the Shopify CLI.
+4. Clone the Shopify Theme Lab repo or simply use the Shopify CLI.
 
 <CodeGroup>
   <CodeGroupItem title="Shopify CLI" active>
@@ -44,14 +38,14 @@ git clone "https://github.com/uicrooks/shopify-theme-lab.git" shopify-theme-lab
   </CodeGroupItem>
 </CodeGroup>
 
-6. Install dependencies and run the `start` task.
+5. Install dependencies and run the `start` task.
 
 <CodeGroup>
   <CodeGroupItem title="NPM" active>
 
 ```sh
 npm install
-npm run start
+npm run start --store
 ```
 
   </CodeGroupItem>
@@ -60,11 +54,15 @@ npm run start
 
 ```sh
 yarn install
-yarn start
+yarn start --store
 ```
 
   </CodeGroupItem>
 </CodeGroup>
+
+::: tip
+You will be prompted the first time you deploy this command to login to your shopify partner account. Press any key when prompted in the terminal to open the login page.
+:::
 
 7. Open the development URL provided by the Shopify CLI. You may need to enter the store password before you can continue.
 
